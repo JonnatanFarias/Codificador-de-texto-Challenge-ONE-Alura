@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/Vector.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>Codificador e Decodificador de texto</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <div id="logo-alura">
+                <img class="logoAlura" src="img/Vector.svg">
+            </div>
+        </section>
+    </header>
+    <main>
+
+        <div class="encrypt">
+            <textarea id="input-text" class="input-text" placeholder="Digite seu texto aqui..."
+                name="w3review"></textarea>
+            <div class="info">
+                <div class="informacao">
+                    <p><img src="img/exclamation.svg" alt="ponto de exclamação" width="12px">Apenas letras minúsculas e
+                        sem
+                        acento.</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="btnEncryptar" class="btn-1">Criptografar</button>
+                <button id="btnDecryptar" class="btn-2">Descriptografar</button>
+            </div>
+        </div>
+
+        <div class=" decrypt">
+            <div class="container">
+                <img id="lupa" class="lupa" src="./img/lupa.svg">
+                <div id="inserirImg"></div>
+                <p id="msg">🔑 Digite um texto que você deseja criptografar ou descriptografar 🔓</p>
+                <textarea id="inputTextSaida"></textarea>
+                <div id="copy"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://github.com/JonnatanFarias" target="_blank"><i class="bi bi-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/jonnatan-farias/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/jonnatanfarias/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
